@@ -1,6 +1,8 @@
 body{
     background-color: lightgray;
     margin: 0;
+    /* background-image: url(https://r4.wallpaperflare.com/wallpaper/542/50/545/simple-background-blue-simple-minimalism-wallpaper-6f8cd2ff7d993518a77d9204a4f35000.jpg); */
+    font-family: "SF Pro Display";
 }
 
 .header{
@@ -68,11 +70,10 @@ body{
 
 .form_id{
     background-color: white;
-    /* display: flex; */
-    /* flex-wrap: wrap; */
-    /* justify-content: flex-end; */
+    display: flex;
+    flex-wrap: wrap;
     padding: 20px;
-    width: 1000px;
+    width: 600px;
     margin: 30px auto;
     border-radius: 15px;
     -webkit-border-radius: 15px;
@@ -83,6 +84,10 @@ body{
 
 .form_fields{
     margin: 10px;
+}
+
+#alamat{
+    resize: none;
 }
 
 .logo{
@@ -151,7 +156,15 @@ body{
     -o-border-radius: 5px;
 }
 
+.btn_bawah {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
 .b_submit{
+    margin-right: 10px;
     background-color: #0055ff;
     color: white;
     text-decoration: none;
@@ -185,7 +198,7 @@ body{
 .container {
     display: flex;
     flex-wrap: wrap;
-    align-items: flex-start;
+    align-items: center;
     width: 85%;
     margin: auto
 }
@@ -194,6 +207,18 @@ body{
     flex: 1;
     padding: 20px;
     box-sizing: border-box;
+    /* margin-top: 10px; */
+}
+
+.quotes h2{
+    font-size: 35px;
+    color: #1b7ca1;
+}
+
+.quotes h1{
+    font-size: 80px;
+    font-weight: bold;
+    color: #0055ff;
 }
 
 .footer{
