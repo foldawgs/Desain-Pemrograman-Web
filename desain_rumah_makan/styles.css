@@ -201,19 +201,19 @@ body{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    width: 70%;
+    width: 90%;
     margin: auto
 }
 
 .quotes{
-    flex: 1;
+    /* flex: ; */
     padding: 20px;
     box-sizing: border-box;
     /* margin-top: 10px; */
 }
 
 .quotes h2{
-    font-size: 35px;
+    font-size: 22px;
     color: #1b7ca1;
 }
 
